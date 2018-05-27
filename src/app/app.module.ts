@@ -8,6 +8,7 @@ import { NavHorizontalComponent } from './nav-horizontal/nav-horizontal.componen
 import { NavVerticalComponent } from './nav-vertical/nav-vertical.component';
 import { ChatsNavComponent } from './chats-nav/chats-nav.component';
 import { ChatBodyComponent } from './chat-body/chat-body.component';
+import { MessageComponent } from './message/message.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ChatBodyComponent } from './chat-body/chat-body.component';
     NavHorizontalComponent,
     NavVerticalComponent,
     ChatsNavComponent,
-    ChatBodyComponent
+    ChatBodyComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,

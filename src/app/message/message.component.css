@@ -1,0 +1,42 @@
+.message-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin: 10px 0 10px 0;
+    color: #fff;
+}
+.message {
+    width: 70%;
+    margin: 10px 0px 10px 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-emphasis: wrap; 
+}
+.author-badge {
+    height: 40px;
+    width: 40px;
+    background-color: #847e7d;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
+.message-content {
+    min-height: 50px;
+    margin-left: 5px;
+    padding: 15px;
+    width: 70%;
+    background-color: #847e7d;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 3em 3em 3em 5px;
+    text-align: left;
+}

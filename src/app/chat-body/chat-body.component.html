@@ -1,6 +1,19 @@
 <div class="body-chat">
   <div class="chat-messages-wrapper">
-
+    <div class="messages">
+      <app-message></app-message>
+    </div>
+    <div class="send-message-textarea">
+      <div class="send-message-utilities">
+        <a href="#">
+          <fa-icon [icon]="faPaperclip"></fa-icon>
+        </a>
+      </div>
+      <input type="text" placeholder="Type a message">
+      <button class="btn btn-send">
+        <fa-icon [icon]="faPaperPlane"></fa-icon>
+      </button>
+    </div>
   </div>
   <div class="chat-details-wrapper">
     <div class="profile">
