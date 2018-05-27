@@ -1,12 +1,17 @@
+:host {
+    width: 100%;
+    float: left;
+}
 .message-wrapper {
     width: 100%;
     display: flex;
-    flex-flow: column;
+    flex-flow: column;justify-content: left;
+    float: left;
     margin: 10px 0 10px 0;
     color: #fff;
 }
 .message {
-    width: 70%;
+    max-width: 70%;
     margin: 10px 0px 10px 10px;
     display: flex;
     flex-flow: row;
@@ -31,7 +36,7 @@
     min-height: 50px;
     margin-left: 5px;
     padding: 15px;
-    width: 70%;
+    max-width: 70%;
     background-color: #847e7d;
     color: #fff;
     display: flex;
@@ -39,4 +44,12 @@
     justify-content: center;
     border-radius: 3em 3em 3em 5px;
     text-align: left;
+    padding-right: 10px;
+}
+.right {
+    float: right;
+}
+.right .message-content {
+    border-radius: 3em 3em 5px 3em;
+    margin-right: 5px;
 }
