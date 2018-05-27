@@ -1,0 +1,84 @@
+:host {
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 100vh;
+    background-color: #DEE3EC;
+}
+.vertical-nav {
+    box-shadow: none;
+}
+@media(min-width: 1000px) {
+    :host {
+        width: 6%;
+    }   
+}
+.icons {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.new-message {
+    margin-top: 15px;
+    width: 100%;
+}
+.icon {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 70px;
+}
+.icon a {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 3px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #847e7d;
+    margin-left: -2px;
+}
+fa-icon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: #847e7d;
+    font-weight: 400;
+}
+
+.chat-heads-wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    transition: .3s all ease;
+}
+.chat-head {
+    margin: 5px 0 5px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DEC2E9;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(96, 50, 114);
+    font-family: 'Courier New', Courier, monospace;
+    transition: .3s all ease;
+}
+.chat-head:hover {
+    width: 55px;
+    height: 55px;
+    margin: 2.5px 0 2.5px 0;
+}
+.online {
+    border: 2px solid forestgreen;
+}
